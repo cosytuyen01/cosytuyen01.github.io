@@ -1,3 +1,4 @@
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,14 +13,14 @@ namespace AppOOP
             {
             return name;
             }
-            set
+    set
             {
      		name = value;
      	    }
-            Console.Write("Student");
+Console.Write("Student");
             }
        public virtual void Talk()
-           {
+{
     MessageBox.Show(Name);
-           }
+}
     }
